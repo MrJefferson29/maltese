@@ -225,7 +225,7 @@ const FAQ = () => {
         become a cherished member of your family for years to come.
       </Paragraph>
 
-      <Link to="/available-puppies/shelter">
+      <Link to="/all-pets">
         {" "}
         <CTAButton>Get Started</CTAButton>{" "}
       </Link>
