@@ -67,7 +67,21 @@ import sophie2 from '../../Assets/sophie2.jpg'
 import angel from '../../Assets/angel.jpg'
 import alf from '../../Assets/alf.jpg';
 import alf1 from '../../Assets/alf1.jpg';
-
+import malta1 from '../../Assets/malta1.jpg'
+import malta2 from '../../Assets/malta2.jpg'
+import malta3 from '../../Assets/malta3.jpg'
+import leng1 from '../../Assets/leng1.jpg'
+import leng2 from '../../Assets/leng2.jpg'
+import lady1 from '../../Assets/lady1.jpg'
+import lady2 from '../../Assets/lady2.jpg'
+import lady3 from '../../Assets/lady3.jpg'
+import guy1 from '../../Assets/guy1.jpg';
+import guy2 from '../../Assets/guy2.jpg';
+import guy3 from '../../Assets/guy3.jpg';
+import apple1 from '../../Assets/apple1.jpg';
+import apple2 from '../../Assets/apple2.jpg';
+import lou1 from '../../Assets/lou1.jpg';
+import lou2 from '../../Assets/lou2.jpg';
 
 // do not change to anything else
 const gunsData = [
@@ -82,6 +96,30 @@ const gunsData = [
     certificate: "KC Verified",
     description: `Jodi is a bright, playful maltese poodle with an affectionate nature. She loves cuddles and enjoys playing with her family. Jodi will make a great companion for any home.`,
     images: [jodi1, jodi2, jodi3]
+  },
+  {
+    name: "Guy",
+    category: "New",
+    subCat: "Maltese",
+    sex: "Male",
+    age: "9 weeks",
+    views: "12",
+    price: "$800",
+    certificate: "KC Verified",
+    description: "-",
+    images: [guy1, guy2, guy3, guy2]
+  },
+  {
+    name: "Malta",
+    category: "New",
+    subCat: 'Maltipoo',
+    sex: "Male",
+    age: "9 weeks",
+    views: "78",
+    price: "$ 700",
+    certificate: "KC Verified",
+    description: `Nobody enjoys playing games like ittle Malta, right from birth, Malta has been a playful spirit, a very ppure source of energy that requires a loving family to take care of him`,
+    images: [malta1, malta2, malta3]
   },
   {
     name: "Sophie",
@@ -188,6 +226,19 @@ const gunsData = [
     certificate: "KC Verified",
     description: `Alfie is a bright, playful friend with an affectionate nature; loves cuddles and enjoys playing with the family. Alfie will make a great companion for any home.`,
     images: [alf, alf1, alf]
+  },
+  {
+    name: "Leng",
+    category: "Boosted",
+    subCat: 'Maltese',
+    sex: "Male",
+    age: "8 weeks",
+    views: "78",
+    price: "$ 700",
+    certificate: "KC Verified",
+    description: `Leng is a curious and friendly Maltese pupp who loves exploring his surroundings.
+     He has a playful nature and would be a wonderful addition to any household.`,
+    images: [leng1, leng2, leng1]
   },
   {
     name: "Lottie",
@@ -351,6 +402,18 @@ const gunsData = [
     images: [petra, petra, petra, petra]
   },
   {
+    name: "Apple",
+    category: "Boosted",
+    subCat: 'Maltese',
+    sex: "Female",
+    age: "12 weeks",
+    views: "85",
+    price: "$ 700",
+    certificate: "KC Verified",
+    description: `Apple is a gentle and affectionate Maltese Poodle who loves being spoiled. She enjoys cuddling and has a sweet, loving nature. Apple is ready to join a family who will cherish her.`,
+    images: [apple1, apple2, apple1, apple2]
+  },
+  {
     name: "Molly",
     category: "Most Views",
     subCat: 'Maltipoo',
@@ -361,6 +424,18 @@ const gunsData = [
     certificate: "KC Verified",
     description: `Molly is a sweet and gentle Maltese poodle who loves to cuddle. She has a calm and affectionate demeanor, making her the perfect companion for any family looking for a loving pet.`,
     images: [molly1, molly2, molly1, molly2]
+  },
+  {
+    name: "Lady",
+    category: "Most Views",
+    subCat: 'Maltipoo',
+    sex: "Female",
+    age: "11 weeks",
+    views: "72",
+    price: "$ 700",
+    certificate: "KC Verified",
+    description: `Lady is a playful and affectionate girlie who loves being the center of attention. She has a friendly personality and enjoys spending time with everyone. Lady is ready for her new family to adore her.`,
+    images: [lady1, lady2, lady3, lady2]
   },
   {
     name: "Archie",
@@ -541,7 +616,19 @@ const gunsData = [
     certificate: "KC Verified",
     description: `Ruby is a sweet and loving Maltipoo pupp with a gentle temperament. She loves cuddles and enjoys spending time with her family. Ruby will make a perfect addition to any home looking for a loving companion.`,
     images: [ruby1, ruby2, ruby3, ruby2]
-  }
+  },
+  {
+    name: "Lou",
+    category: "Boosted",
+    subCat: 'Maltipoo',
+    sex: "Male",
+    age: "9 weeks",
+    views: "73",
+    price: "$ 900",
+    certificate: "Verified Breeder",
+    description: `Lou is a charming and lively Maltese Poodle with a lot of energy. He loves to explore and is always up for some fun. Lou will make a wonderful companion for any family looking for a playful and loving pet.`,
+    images: [lou1, lou2, lou1, lou2]
+  },
 ];
 
 export default gunsData;
